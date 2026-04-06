@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="i-Generation blog and insights" />
+  <title>Blog & Insights</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;700;800&family=Manrope:wght@400;500;600;700;800&family=Sora:wght@500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/css/style.css?v=2" />
+</head>
+<body>
+  <div class="site-bg" aria-hidden="true"></div>
+  <header>
+    <nav class="navbar">
+      <div class="container nav-inner">
+        <a class="brand" href="index.html"><img class="brand-logo" src="assets/images/Igen____Logo.png" alt="i-Generation logo" /></a>
+        <ul id="main-menu" class="menu">
+          <li><a href="index.html" data-i18n="nav.home">Home</a></li>
+          <li><a href="about/" data-i18n="nav.about">About Us</a></li>
+          <li><a href="solutions/" data-i18n="nav.services">Solutions</a></li>
+          <li><a href="industries/" data-i18n="nav.industries">Industries</a></li>
+          <li><a href="technology/" data-i18n="nav.projects">Technology</a></li>
+          <li><a href="success-stories/" data-i18n="nav.pricing">Success Stories</a></li>
+          <li><a href="blog/" data-i18n="nav.blog">Blog</a></li>
+          <li><a href="contact/" data-i18n="nav.contact">Contact</a></li>
+        </ul>
+        <div id="language-switcher" class="language-switcher" aria-label="Language selector">
+          <button id="language-trigger" class="language-trigger" type="button" aria-haspopup="listbox" aria-expanded="false" aria-controls="language-menu">
+            <span id="current-language">EN</span>
+            <span class="language-caret" aria-hidden="true"></span>
+          </button>
+          <ul id="language-menu" class="language-menu" role="listbox" aria-label="Select language">
+            <li role="option" aria-selected="true"><button type="button" class="language-option active" data-lang="en">EN</button></li>
+            <li role="option" aria-selected="false"><button type="button" class="language-option" data-lang="zh">中文</button></li>
+          </ul>
+        </div>
+        <a class="btn btn-solid nav-cta" href="contact/" data-i18n="nav.cta">Request Demo</a>
+        <button class="menu-toggle" aria-label="Toggle menu" aria-expanded="false" aria-controls="main-menu"><span></span><span></span><span></span></button>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="blog-hero reveal">
+      <div class="container blog-hero-content">
+        <p class="eyebrow" data-i18n="blog.eyebrow">Blog & Insights</p>
+        <h1 data-i18n="blog.title">Latest News, Articles, and Industry Insights</h1>
+        <p class="section-copy">Actionable perspectives on visual AI deployment, model architecture, and measurable enterprise outcomes.</p>
+      </div>
+      <div class="blog-hero-glow" aria-hidden="true"></div>
+    </section>
+
+    <section class="section-padding reveal">
+      <div class="container blog-filter-row">
+        <div class="blog-search-wrap">
+          <label class="sr-only" for="blog-search">Search blog posts</label>
+          <input id="blog-search" class="blog-search" type="search" placeholder="Search articles, topics, or industries" />
+        </div>
+        <div class="blog-filter-group" role="group" aria-label="Blog categories">
+          <button type="button" class="blog-filter-btn is-active" data-category="all">All</button>
+          <button type="button" class="blog-filter-btn" data-category="technology">Technology</button>
+          <button type="button" class="blog-filter-btn" data-category="case-studies">Case Studies</button>
+          <button type="button" class="blog-filter-btn" data-category="company-news">Company News</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="blog-featured reveal">
+      <div class="container">
+        <article class="blog-featured-card" data-blog-card data-category="technology" data-title="How Vision Foundation Models Reduce Training Costs" data-excerpt="Why 10x reduction in data requirements changes enterprise AI delivery for large organizations.">
+          <div class="blog-featured-media" aria-hidden="true"></div>
+          <div class="blog-featured-body">
+            <span class="blog-badge blog-badge-tech">Technology</span>
+            <h2>How Vision Foundation Models Reduce Training Costs</h2>
+            <p>A practical look at transfer learning and multimodal adapters that shrink data demands while preserving model performance in production.</p>
+            <div class="blog-meta-row">
+              <span>Apr 01, 2026</span>
+              <span>8 min read</span>
+            </div>
+            <a href="#" class="btn btn-solid">Read Article</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section-padding reveal">
+      <div class="container blog-latest-grid">
+        <article class="blog-latest-card" data-blog-card data-category="case-studies" data-title="From Monitoring to Intelligence in Urban Safety" data-excerpt="Building watchlist-driven, proactive operations for city-scale systems.">
+          <div class="blog-latest-media" aria-hidden="true"></div>
+          <span class="blog-badge blog-badge-case">Case Study</span>
+          <h3>From Monitoring to Intelligence in Urban Safety</h3>
+          <p>How city operators shifted from reactive video review to proactive AI-driven intervention and response.</p>
+          <div class="blog-meta-row">
+            <span>Mar 22, 2026</span>
+            <span>6 min read</span>
+          </div>
+        </article>
+
+        <article class="blog-latest-card" data-blog-card data-category="company-news" data-title="i-Generation Expands AI Delivery Team in Southeast Asia" data-excerpt="Regional expansion supports faster deployment cycles and local customer partnerships.">
+          <div class="blog-latest-media" aria-hidden="true"></div>
+          <span class="blog-badge blog-badge-news">Company News</span>
+          <h3>i-Generation Expands AI Delivery Team in Southeast Asia</h3>
+          <p>New regional capability boosts implementation speed and strengthens lifecycle support for enterprise customers.</p>
+          <div class="blog-meta-row">
+            <span>Mar 14, 2026</span>
+            <span>4 min read</span>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section-padding blog-feed-section reveal">
+      <div class="container blog-feed-layout">
+        <div>
+          <div id="blog-grid" class="blog-grid">
+            <article class="blog-post-card" data-blog-card data-category="technology" data-title="Practical Deployment Patterns for Financial AI" data-excerpt="Key lessons for fraud detection and behavior analytics modernization.">
+              <div class="blog-post-media" aria-hidden="true"></div>
+              <span class="blog-badge blog-badge-tech">Technology</span>
+              <h3>Practical Deployment Patterns for Financial AI</h3>
+              <p>Reference architectures and rollout sequencing for risk analytics modernization in financial institutions.</p>
+              <div class="blog-meta-row"><span>Mar 09, 2026</span><span>5 min read</span></div>
+            </article>
+
+            <article class="blog-post-card" data-blog-card data-category="case-studies" data-title="Campus Safety Analytics at Scale" data-excerpt="How AI-powered behavior understanding improves incident response time.">
+              <div class="blog-post-media" aria-hidden="true"></div>
+              <span class="blog-badge blog-badge-case">Case Study</span>
+              <h3>Campus Safety Analytics at Scale</h3>
+              <p>Measurable impact from real-time safety analytics and workflow redesign across multi-site campuses.</p>
+              <div class="blog-meta-row"><span>Mar 02, 2026</span><span>7 min read</span></div>
+            </article>
+
+            <article class="blog-post-card" data-blog-card data-category="technology" data-title="Text-to-Image Retrieval for Security Operations" data-excerpt="Reducing investigation time with language-guided visual search.">
+              <div class="blog-post-media" aria-hidden="true"></div>
+              <span class="blog-badge blog-badge-tech">Technology</span>
+              <h3>Text-to-Image Retrieval for Security Operations</h3>
+              <p>Language-guided retrieval pipelines that accelerate investigations and improve analyst productivity.</p>
+              <div class="blog-meta-row"><span>Feb 22, 2026</span><span>6 min read</span></div>
+            </article>
+
+            <article class="blog-post-card" data-blog-card data-category="company-news" data-title="Inside Our 2026 Product Roadmap" data-excerpt="What customers can expect in model governance and platform tooling.">
+              <div class="blog-post-media" aria-hidden="true"></div>
+              <span class="blog-badge blog-badge-news">Company News</span>
+              <h3>Inside Our 2026 Product Roadmap</h3>
+              <p>Model governance enhancements and platform updates aimed at scalable, compliant AI operations.</p>
+              <div class="blog-meta-row"><span>Feb 17, 2026</span><span>4 min read</span></div>
+            </article>
+
+            <article class="blog-post-card" data-blog-card data-category="case-studies" data-title="AI Compliance Monitoring for Industrial Sites" data-excerpt="From manual review to automated policy detection in hazardous environments.">
+              <div class="blog-post-media" aria-hidden="true"></div>
+              <span class="blog-badge blog-badge-case">Case Study</span>
+              <h3>AI Compliance Monitoring for Industrial Sites</h3>
+              <p>How automated compliance signals reduce safety incidents and improve audit readiness.</p>
+              <div class="blog-meta-row"><span>Feb 08, 2026</span><span>5 min read</span></div>
+            </article>
+
+            <article class="blog-post-card" data-blog-card data-category="technology" data-title="Edge Inference Optimization for Multi-Camera Streams" data-excerpt="Balancing throughput and accuracy in high-density deployments.">
+              <div class="blog-post-media" aria-hidden="true"></div>
+              <span class="blog-badge blog-badge-tech">Technology</span>
+              <h3>Edge Inference Optimization for Multi-Camera Streams</h3>
+              <p>Strategies for model pruning, batching, and hardware acceleration in dense camera environments.</p>
+              <div class="blog-meta-row"><span>Jan 31, 2026</span><span>9 min read</span></div>
+            </article>
+          </div>
+
+          <div class="blog-no-results" id="blog-no-results" hidden>
+            <h3>No matching posts found</h3>
+            <p>Try another keyword or switch to a different category filter.</p>
+          </div>
+
+          <nav class="blog-pagination" aria-label="Blog pagination">
+            <a href="#" class="blog-page-btn is-current" aria-current="page">1</a>
+            <a href="#" class="blog-page-btn">2</a>
+            <a href="#" class="blog-page-btn">3</a>
+            <a href="#" class="blog-page-btn">Next</a>
+          </nav>
+        </div>
+
+        <aside class="blog-sidebar" aria-label="Blog sidebar">
+          <div class="blog-sidebar-card">
+            <h3>Recent Posts</h3>
+            <ul>
+              <li><a href="#">How Vision Foundation Models Reduce Training Costs</a></li>
+              <li><a href="#">Campus Safety Analytics at Scale</a></li>
+              <li><a href="#">Text-to-Image Retrieval for Security Operations</a></li>
+              <li><a href="#">Inside Our 2026 Product Roadmap</a></li>
+            </ul>
+          </div>
+
+          <div class="blog-sidebar-card">
+            <h3>Search by Tag</h3>
+            <div class="blog-tag-cloud">
+              <a href="#">Vision Models</a>
+              <a href="#">Urban Safety</a>
+              <a href="#">Financial AI</a>
+              <a href="#">Compliance</a>
+              <a href="#">Edge AI</a>
+              <a href="#">Case Study</a>
+            </div>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <section class="section-padding reveal">
+      <div class="container">
+        <article class="blog-newsletter">
+          <div>
+            <p class="eyebrow">Newsletter</p>
+            <h2>Get Monthly AI Insights in Your Inbox</h2>
+            <p>Receive curated updates on visual AI strategy, enterprise deployment patterns, and industry success stories.</p>
+          </div>
+          <form class="blog-newsletter-form" action="#" method="post">
+            <label class="sr-only" for="newsletter-email">Email Address</label>
+            <input id="newsletter-email" type="email" name="email" placeholder="name@company.com" required />
+            <button type="submit" class="btn btn-solid">Subscribe</button>
+          </form>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div>
+        <a class="brand" href="index.html"><img class="brand-logo" src="assets/images/Igen____Logo.png" alt="i-Generation logo" /></a>
+        <p data-i18n="footer.copy">Advanced visual AI solutions for safer, smarter, and more efficient operations.</p>
+      </div>
+      <div>
+        <h3 data-i18n="footer.company">Company</h3>
+        <ul>
+          <li><a href="about/" data-i18n="nav.about">About</a></li>
+          <li><a href="technology/" data-i18n="nav.projects">Technology</a></li>
+          <li><a href="success-stories/" data-i18n="nav.pricing">Success Stories</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3 data-i18n="footer.contact">Contact</h3>
+        <ul>
+          <li><a href="tel:+861000000000">+86 10 0000 0000</a></li>
+          <li><a href="mailto:contact@i-generation.ai">contact@i-generation.ai</a></li>
+          <li data-i18n="footer.address">Beijing, China</li>
+        </ul>
+      </div>
+    </div>
+    <div class="container footer-bottom"><p data-i18n="footer.copyright">© 2026 i-Generation Company Limited. All rights reserved.</p></div>
+    <div class="mobile-footer-minimal">
+      <a class="mobile-footer-logo" href="index.html" aria-label="i-Generation home">
+        <img src="assets/images/Igen____Logo.png" alt="i-Generation logo" />
+      </a>
+      <div class="mobile-footer-details">
+        <p class="mobile-footer-title">Contact IGEN</p>
+        <a class="mobile-footer-link" href="mailto:info@i-gener.com">info@i-gener.com</a>
+        <a class="mobile-footer-link" href="mailto:support@i-gener.com">support@i-gener.com</a>
+        <a class="mobile-footer-link" href="tel:+86XXXX-XXXX">+86 XXXX-XXXX</a>
+      </div>
+      <p class="mobile-footer-legal">© 2026 i-Generation Company Limited</p>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
