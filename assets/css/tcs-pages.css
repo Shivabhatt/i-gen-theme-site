@@ -140,7 +140,7 @@
 
 .core-engine-card {
   position: relative;
-  font-family: Inter, Outfit, sans-serif;
+  font-family: var(--font-body);
   background: #ffffff;
   border: 1px solid #e6f2ff;
   border-radius: 20px;
